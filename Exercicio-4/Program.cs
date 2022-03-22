@@ -18,6 +18,6 @@ foreach(var aluno in alunos)
 {
     if (aluno.Nota > 7)
     {
-        Console.WriteLine(aluno.Nome + " " + aluno.Nota);
+        Console.WriteLine($"{aluno.Nome } {aluno.Nota}");
     }
 }

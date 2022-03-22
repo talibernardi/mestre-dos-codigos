@@ -1,0 +1,15 @@
+C:\Users\talita.silva\source\repos\ConsoleApp1\exercicio-9\bin\Debug\net6.0\exercicio-9.exe
+C:\Users\talita.silva\source\repos\ConsoleApp1\exercicio-9\bin\Debug\net6.0\exercicio-9.deps.json
+C:\Users\talita.silva\source\repos\ConsoleApp1\exercicio-9\bin\Debug\net6.0\exercicio-9.runtimeconfig.json
+C:\Users\talita.silva\source\repos\ConsoleApp1\exercicio-9\bin\Debug\net6.0\exercicio-9.dll
+C:\Users\talita.silva\source\repos\ConsoleApp1\exercicio-9\bin\Debug\net6.0\exercicio-9.pdb
+C:\Users\talita.silva\source\repos\ConsoleApp1\exercicio-9\obj\Debug\net6.0\exercicio-9.csproj.AssemblyReference.cache
+C:\Users\talita.silva\source\repos\ConsoleApp1\exercicio-9\obj\Debug\net6.0\exercicio-9.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\talita.silva\source\repos\ConsoleApp1\exercicio-9\obj\Debug\net6.0\exercicio-9.AssemblyInfoInputs.cache
+C:\Users\talita.silva\source\repos\ConsoleApp1\exercicio-9\obj\Debug\net6.0\exercicio-9.AssemblyInfo.cs
+C:\Users\talita.silva\source\repos\ConsoleApp1\exercicio-9\obj\Debug\net6.0\exercicio-9.csproj.CoreCompileInputs.cache
+C:\Users\talita.silva\source\repos\ConsoleApp1\exercicio-9\obj\Debug\net6.0\exercicio-9.dll
+C:\Users\talita.silva\source\repos\ConsoleApp1\exercicio-9\obj\Debug\net6.0\refint\exercicio-9.dll
+C:\Users\talita.silva\source\repos\ConsoleApp1\exercicio-9\obj\Debug\net6.0\exercicio-9.pdb
+C:\Users\talita.silva\source\repos\ConsoleApp1\exercicio-9\obj\Debug\net6.0\exercicio-9.genruntimeconfig.cache
+C:\Users\talita.silva\source\repos\ConsoleApp1\exercicio-9\obj\Debug\net6.0\ref\exercicio-9.dll
