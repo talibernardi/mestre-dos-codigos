@@ -1,0 +1,15 @@
+C:\Users\talita.silva\source\repos\ConsoleApp1\UnitTestLib\bin\Debug\net6.0\UnitTestLib.deps.json
+C:\Users\talita.silva\source\repos\ConsoleApp1\UnitTestLib\bin\Debug\net6.0\UnitTestLib.dll
+C:\Users\talita.silva\source\repos\ConsoleApp1\UnitTestLib\bin\Debug\net6.0\UnitTestLib.pdb
+C:\Users\talita.silva\source\repos\ConsoleApp1\UnitTestLib\bin\Debug\net6.0\Utilitarios.dll
+C:\Users\talita.silva\source\repos\ConsoleApp1\UnitTestLib\bin\Debug\net6.0\Utilitarios.pdb
+C:\Users\talita.silva\source\repos\ConsoleApp1\UnitTestLib\obj\Debug\net6.0\UnitTestLib.csproj.AssemblyReference.cache
+C:\Users\talita.silva\source\repos\ConsoleApp1\UnitTestLib\obj\Debug\net6.0\UnitTestLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\talita.silva\source\repos\ConsoleApp1\UnitTestLib\obj\Debug\net6.0\UnitTestLib.AssemblyInfoInputs.cache
+C:\Users\talita.silva\source\repos\ConsoleApp1\UnitTestLib\obj\Debug\net6.0\UnitTestLib.AssemblyInfo.cs
+C:\Users\talita.silva\source\repos\ConsoleApp1\UnitTestLib\obj\Debug\net6.0\UnitTestLib.csproj.CoreCompileInputs.cache
+C:\Users\talita.silva\source\repos\ConsoleApp1\UnitTestLib\obj\Debug\net6.0\UnitTestLib.csproj.CopyComplete
+C:\Users\talita.silva\source\repos\ConsoleApp1\UnitTestLib\obj\Debug\net6.0\UnitTestLib.dll
+C:\Users\talita.silva\source\repos\ConsoleApp1\UnitTestLib\obj\Debug\net6.0\refint\UnitTestLib.dll
+C:\Users\talita.silva\source\repos\ConsoleApp1\UnitTestLib\obj\Debug\net6.0\UnitTestLib.pdb
+C:\Users\talita.silva\source\repos\ConsoleApp1\UnitTestLib\obj\Debug\net6.0\ref\UnitTestLib.dll

@@ -46,9 +46,9 @@ Console.Write("\nRetornando apenas números pares: ");
 Console.WriteLine(string.Join(", ", result));
 
 //retornando apenas número informado
-foreach(var numero in numeros)
+foreach (var numero in numeros)
 {
-    if(numero == 1)
+    if (numero == 1)
     {
         Console.WriteLine("\nNúmero informado: " + 1);
     }

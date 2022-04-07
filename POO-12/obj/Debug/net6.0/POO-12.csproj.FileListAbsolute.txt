@@ -1,0 +1,15 @@
+C:\Users\talita.silva\source\repos\ConsoleApp1\POO-12\bin\Debug\net6.0\POO-12.exe
+C:\Users\talita.silva\source\repos\ConsoleApp1\POO-12\bin\Debug\net6.0\POO-12.deps.json
+C:\Users\talita.silva\source\repos\ConsoleApp1\POO-12\bin\Debug\net6.0\POO-12.runtimeconfig.json
+C:\Users\talita.silva\source\repos\ConsoleApp1\POO-12\bin\Debug\net6.0\POO-12.dll
+C:\Users\talita.silva\source\repos\ConsoleApp1\POO-12\bin\Debug\net6.0\POO-12.pdb
+C:\Users\talita.silva\source\repos\ConsoleApp1\POO-12\obj\Debug\net6.0\POO-12.csproj.AssemblyReference.cache
+C:\Users\talita.silva\source\repos\ConsoleApp1\POO-12\obj\Debug\net6.0\POO-12.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\talita.silva\source\repos\ConsoleApp1\POO-12\obj\Debug\net6.0\POO-12.AssemblyInfoInputs.cache
+C:\Users\talita.silva\source\repos\ConsoleApp1\POO-12\obj\Debug\net6.0\POO-12.AssemblyInfo.cs
+C:\Users\talita.silva\source\repos\ConsoleApp1\POO-12\obj\Debug\net6.0\POO-12.csproj.CoreCompileInputs.cache
+C:\Users\talita.silva\source\repos\ConsoleApp1\POO-12\obj\Debug\net6.0\POO-12.dll
+C:\Users\talita.silva\source\repos\ConsoleApp1\POO-12\obj\Debug\net6.0\refint\POO-12.dll
+C:\Users\talita.silva\source\repos\ConsoleApp1\POO-12\obj\Debug\net6.0\POO-12.pdb
+C:\Users\talita.silva\source\repos\ConsoleApp1\POO-12\obj\Debug\net6.0\POO-12.genruntimeconfig.cache
+C:\Users\talita.silva\source\repos\ConsoleApp1\POO-12\obj\Debug\net6.0\ref\POO-12.dll

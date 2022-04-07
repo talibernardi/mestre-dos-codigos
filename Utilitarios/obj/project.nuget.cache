@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "iTWuVneROSMxAVRRdVraIBQVsb981yTJwMylmBOW6sevynK4vnjb/0A56erk4YIweqSkbmqjxduI80Pq9DHNqw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\talita.silva\\source\\repos\\ConsoleApp1\\Utilitarios\\Utilitarios.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\talita.silva\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\talita.silva\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\talita.silva\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512"
+  ],
+  "logs": []
+}

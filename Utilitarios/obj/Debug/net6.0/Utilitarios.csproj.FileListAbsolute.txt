@@ -1,0 +1,12 @@
+C:\Users\talita.silva\source\repos\ConsoleApp1\Utilitarios\bin\Debug\net6.0\Utilitarios.deps.json
+C:\Users\talita.silva\source\repos\ConsoleApp1\Utilitarios\bin\Debug\net6.0\Utilitarios.dll
+C:\Users\talita.silva\source\repos\ConsoleApp1\Utilitarios\bin\Debug\net6.0\Utilitarios.pdb
+C:\Users\talita.silva\source\repos\ConsoleApp1\Utilitarios\obj\Debug\net6.0\Utilitarios.csproj.AssemblyReference.cache
+C:\Users\talita.silva\source\repos\ConsoleApp1\Utilitarios\obj\Debug\net6.0\Utilitarios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\talita.silva\source\repos\ConsoleApp1\Utilitarios\obj\Debug\net6.0\Utilitarios.AssemblyInfoInputs.cache
+C:\Users\talita.silva\source\repos\ConsoleApp1\Utilitarios\obj\Debug\net6.0\Utilitarios.AssemblyInfo.cs
+C:\Users\talita.silva\source\repos\ConsoleApp1\Utilitarios\obj\Debug\net6.0\Utilitarios.csproj.CoreCompileInputs.cache
+C:\Users\talita.silva\source\repos\ConsoleApp1\Utilitarios\obj\Debug\net6.0\Utilitarios.dll
+C:\Users\talita.silva\source\repos\ConsoleApp1\Utilitarios\obj\Debug\net6.0\refint\Utilitarios.dll
+C:\Users\talita.silva\source\repos\ConsoleApp1\Utilitarios\obj\Debug\net6.0\Utilitarios.pdb
+C:\Users\talita.silva\source\repos\ConsoleApp1\Utilitarios\obj\Debug\net6.0\ref\Utilitarios.dll

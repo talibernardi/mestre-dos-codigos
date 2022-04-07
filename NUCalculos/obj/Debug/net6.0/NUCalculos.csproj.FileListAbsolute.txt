@@ -1,0 +1,12 @@
+C:\Users\talita.silva\source\repos\ConsoleApp1\NUCalculos\bin\Debug\net6.0\NUCalculos.deps.json
+C:\Users\talita.silva\source\repos\ConsoleApp1\NUCalculos\bin\Debug\net6.0\NUCalculos.dll
+C:\Users\talita.silva\source\repos\ConsoleApp1\NUCalculos\bin\Debug\net6.0\NUCalculos.pdb
+C:\Users\talita.silva\source\repos\ConsoleApp1\NUCalculos\obj\Debug\net6.0\NUCalculos.csproj.AssemblyReference.cache
+C:\Users\talita.silva\source\repos\ConsoleApp1\NUCalculos\obj\Debug\net6.0\NUCalculos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\talita.silva\source\repos\ConsoleApp1\NUCalculos\obj\Debug\net6.0\NUCalculos.AssemblyInfoInputs.cache
+C:\Users\talita.silva\source\repos\ConsoleApp1\NUCalculos\obj\Debug\net6.0\NUCalculos.AssemblyInfo.cs
+C:\Users\talita.silva\source\repos\ConsoleApp1\NUCalculos\obj\Debug\net6.0\NUCalculos.csproj.CoreCompileInputs.cache
+C:\Users\talita.silva\source\repos\ConsoleApp1\NUCalculos\obj\Debug\net6.0\NUCalculos.dll
+C:\Users\talita.silva\source\repos\ConsoleApp1\NUCalculos\obj\Debug\net6.0\refint\NUCalculos.dll
+C:\Users\talita.silva\source\repos\ConsoleApp1\NUCalculos\obj\Debug\net6.0\NUCalculos.pdb
+C:\Users\talita.silva\source\repos\ConsoleApp1\NUCalculos\obj\Debug\net6.0\ref\NUCalculos.dll
