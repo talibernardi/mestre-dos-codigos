@@ -1,5 +1,4 @@
-﻿
-//Encapsulamento - Vem de de encapsular, que na programação orientada a objetos significa separar o programa em partes,
+﻿//Encapsulamento - Vem de de encapsular, que na programação orientada a objetos significa separar o programa em partes,
 //as mais isoladas possíveis.
 namespace poo_1._4_Encapsulamento
 {

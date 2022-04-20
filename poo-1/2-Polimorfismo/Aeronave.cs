@@ -1,5 +1,4 @@
-﻿//Polimorfismo representa muitas formas, como enviar uma mesma mensagem pra diferente objetos
-//e fazer com que respondam de maneira certa.
+﻿//Polimorfismo é o conceito que define que o mesmo método pode ser implementado de diferentes formas em objetos de diferentes classes;
 namespace poo_1._2_Polimorfismo
 {
     public class Aeronave : Veiculo

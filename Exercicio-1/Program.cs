@@ -1,74 +1,75 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Text;
 
-namespace ConsoleApp1
+public static class Program
 {
-    internal class Program
+    public static void Main()
     {
-        private static object e;
-
-        static void Main(string[] args)
+        try
         {
-            int n1, n2, n3, resultado;
+            Console.WriteLine("Digite o Valor A: ");
+            var a = Convert.ToDecimal(Console.ReadLine());
 
-            Console.Write("Informe o 1 numero - >");
-            n1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Digite o Valor B: ");
+            var b = Convert.ToDecimal(Console.ReadLine());
 
-            Console.Write("Informe o 2 numero ->");
-            n2 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Digite uma das opções abaixo:");
+            Console.WriteLine("Digite 1 para SOMAR A e B.");
+            Console.WriteLine("Digite 2 para SUBTRAIR A e B.");
+            Console.WriteLine("Digite 3 para DIVIDIR A e B.");
+            Console.WriteLine("Digite 4 para MULTIPLICAR A e B.");
+            Console.WriteLine("Digite 5 para saber se A e B são números PARES ou IMPARES.");
+            Console.WriteLine("Digite 6 para REDIGITAR os valores de A e B.");
+            Console.WriteLine("Digite qualquer outro número para ENCERRAR a aplicação.");
 
-            Somar(n1, n2);
-            Subtrair(n1, n2);
-            Dividir(n1, n2);
-            Multiplicar(n1, n2);
-
-            Console.Write("Informe um número qualquer.");
-            n3 = int.Parse(Console.ReadLine());
-
-            ImparPar(n3);
-
-            Console.ReadKey();
-        }
-
-        private static void Somar(int numeroUm, int numeroDois)
-        {
-            var resultado = numeroUm + numeroDois;
-            Console.WriteLine("O resultado da soma é: " + resultado);
-        }
-
-        private static void Subtrair(int numeroUm, int numeroDois)
-        {
-            var resultado = numeroUm - numeroDois;
-            Console.WriteLine("O resultado da subtração é: " + resultado);
-        }
-
-        private static void Dividir(int numeroUm, int numeroDois)
-        {
-            try
+            while (true)
             {
-                var resultado = numeroUm / numeroDois;
-                Console.WriteLine("O resultado da divisão é: " + resultado);
-            }
-            catch (Exception)
-            {
-                Console.WriteLine("Número não é divisivel por zero");
+                switch (Convert.ToInt32(Console.ReadLine()))
+                {
+                    case 1:
+                        Console.WriteLine($"Resultado da Soma de {a} + {b} é: {decimal.Add(a, b)}");
+                        Console.WriteLine("Digite uma das opções do menu: ");
+                        break;
+
+                    case 2:
+                        Console.WriteLine($"Resultado da Subtração de {a} - {b} é: {decimal.Subtract(a, b)}");
+                        Console.WriteLine("Digite uma das opções do menu: ");
+                        break;
+
+                    case 3:
+                        Console.WriteLine($" {(b == 0 ? "O B não pode ser 0 na Divisão." : $"Resultado da Divisão de {a} / {b} é: {decimal.Divide(a, b)}")}");
+                        Console.WriteLine("Digite uma das opções do menu: ");
+                        break;
+
+                    case 4:
+                        Console.WriteLine($"Resultado da Multiplicação de {a} * {b} é: {decimal.Multiply(a, b)}");
+                        Console.WriteLine("Digite uma das opções do menu: ");
+                        break;
+
+                    case 5:
+                        Console.WriteLine($"O Valor {a} é {(a % 2 == 0 ? "par" : "impar")} " +
+                            $"e o valor {b} é {(b % 2 == 0 ? "par" : "impar")}");
+                        Console.WriteLine("Digite uma das opções do menu: ");
+                        break;
+
+                    case 6:
+                        Console.WriteLine("Digite o Valor A: ");
+                        a = Convert.ToDecimal(Console.ReadLine());
+
+                        Console.WriteLine("Digite o Valor B: ");
+                        b = Convert.ToDecimal(Console.ReadLine());
+
+                        Console.WriteLine("Digite uma das opções do menu: ");
+                        break;
+
+                    default:
+                        Environment.Exit(0);
+                        break;
+                }
             }
         }
-
-        private static void Multiplicar(int numeroUm, int numeroDois)
+        catch
         {
-            var resultado = numeroUm * numeroDois;
-            Console.WriteLine("O resultado da multiplicação é: " + resultado);
-        }
-
-        private static void ImparPar(int num)
-        {
-            string msg = num % 2 == 0 ? " é par" : " é ímpar";
-            Console.WriteLine("O número inserido: " + num + msg);
-
+            Console.WriteLine("Essa aplicação só aceita números como parametros de entrada. Tente novamente");
         }
     }
 }

@@ -6,6 +6,7 @@ using poo_1._3_Abstracao;
 using poo_1._4_Encapsulamento;
 using poo_1._5_POO;
 using poo_1._6_Interfaces;
+using static poo_1._6_Interfaces.Log;
 
 //POO//
 poo_1.Pessoa pessoa = new poo_1.Pessoa();
@@ -50,18 +51,17 @@ Carro carro = new Carro();
 carro.darPartida();
 
 //IDsposable
-IDispose idispose = new IDispose();
-Console.WriteLine(idispose.Valor);
-idispose.Dispose();
-Console.ReadKey();
+ExemploIDisposable.Executar();
+Console.WriteLine("Logs Gravados com sucesso!");
+Console.WriteLine();
 
 //Icomparable
 List<Funcionario> lista = new List<Funcionario>();
-lista.Add(new Funcionario() { Nome = "Andre", Salario = "\n8000" });
-lista.Add(new Funcionario() { Nome = "Lili", Salario = "\n10000" });
-lista.Add(new Funcionario() { Nome = "Yuna", Salario = "\n10000" });
-lista.Add(new Funcionario() { Nome = "Sailor", Salario = "\n10000" });
-lista.Add(new Funcionario() { Nome = "Luna", Salario = "\n9000" });
+lista.Add(new Funcionario("Andre", 8000));
+lista.Add(new Funcionario("Lili", 10000));
+lista.Add(new Funcionario("Yuna", 10000));
+lista.Add(new Funcionario("Sailor", 10000));
+lista.Add(new Funcionario("Luna", 9000));
 lista.Sort();
 
 foreach (var funcionario in lista)

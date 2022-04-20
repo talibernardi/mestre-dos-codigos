@@ -9,9 +9,6 @@ namespace POO_13
         {
             Canal = 0;
             Volume = 0;
-
         }
-
     }
-
 }

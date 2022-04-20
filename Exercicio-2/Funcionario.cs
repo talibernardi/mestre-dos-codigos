@@ -3,12 +3,13 @@
     public class Funcionario
     {
        public string Nome { get; set; }
-        public int Salario { get; set; }
+        public double Salario { get; set; }
 
-        public Funcionario(int salario, string nome)
+        public Funcionario(string nome, double salario)
         {
-            Salario = salario;
             Nome = nome;
+            Salario = salario;
         }
+
     }
 }

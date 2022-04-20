@@ -1,4 +1,5 @@
-﻿//lista
+﻿using System.Linq;
+//lista
 List<int> numeros = new List<int>() { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 
 //decrescente - crescente
@@ -21,22 +22,22 @@ Console.WriteLine("\nUltimo número da lista: ");
 Console.WriteLine(Last);
 
 //inserir numero no inicio da lista
-numeros.Insert(0, 0);
+var listaComNumeroNoInicio = numeros.Prepend(0);
 Console.WriteLine("\nAdicionando Número no início da lista: ");
-Console.WriteLine(string.Join(", ", numeros));
+Console.WriteLine(string.Join(", ", listaComNumeroNoInicio));
 
-//inserir numero no fim da lista
-numeros.Insert(11, 11);
+//inserir numero no fim da listanumeros
+var listaComNumeroNoFinal = numeros.Prepend(1);
 Console.WriteLine("\nAdicionando Número no fim da lista: ");
-Console.WriteLine(string.Join(", ", numeros));
+Console.WriteLine(string.Join(", ", listaComNumeroNoFinal));
 
 //remove primeiro numero
-numeros.RemoveAt(0);
+numeros.RemoveAt(numeros.First());
 Console.WriteLine("\nRemovendo Número do início da lista: ");
 Console.WriteLine(string.Join(", ", numeros));
 
 //remove ultimo numero
-numeros.RemoveAt(10);
+numeros.RemoveAt(numeros.Last());
 Console.WriteLine("\nRemovendo Número do fim da lista: ");
 Console.WriteLine(string.Join(", ", numeros));
 
@@ -45,13 +46,13 @@ var result = numeros.Where(x => (x % 2) == 0).ToList();
 Console.Write("\nRetornando apenas números pares: ");
 Console.WriteLine(string.Join(", ", result));
 
-//retornando apenas número informado
-foreach (var numero in numeros)
+foreach (var _ in
+//retornando apenas número informado// trocar pra posição dentro do index usando linq
+from numero in numeros
+where numero == 1
+select new { })
 {
-    if (numero == 1)
-    {
-        Console.WriteLine("\nNúmero informado: " + 1);
-    }
+    Console.WriteLine("\nNúmero informado: " + 1);
 }
 
 //transforme todos os numeros da lista em um array

@@ -8,7 +8,7 @@ namespace poo_1._2_Polimorfismo
             get; private set;
         }
 
-        public Veiculo(string tipoVeiculo)
+        protected Veiculo(string tipoVeiculo)
         {
             Tipo = tipoVeiculo;
         }

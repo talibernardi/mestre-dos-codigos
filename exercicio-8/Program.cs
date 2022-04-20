@@ -1,6 +1,4 @@
-﻿
-
-List<double> items = new List<double>();
+﻿List<double> items = new List<double>();
 
 Console.WriteLine("Digite um número: ");
 items.Add(double.Parse(Console.ReadLine()));

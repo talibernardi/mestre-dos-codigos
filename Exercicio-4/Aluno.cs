@@ -3,13 +3,20 @@
     public class Aluno
     {
         public string Nome { get; set; }
-        public int Nota { get; set; }
+        public double[] Notas { get; set; }
+        public double Media => PegarMedia();
 
-        public Aluno(int nota, string nome)
+        double PegarMedia()
         {
-            Nome = nome;    
-            Nota = nota;    
+            double somaNotas = Notas.ToList().Sum();
+            return (somaNotas / Notas.Count());
         }
-}
+
+        public Aluno(string nome, double[] notas)
+        {
+            Nome = nome;
+            Notas = (double[])notas.Clone();
+        }
+    }
 }
 

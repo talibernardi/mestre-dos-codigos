@@ -1,23 +1,69 @@
 ﻿using Exercicio_4;
 
-var alunos = new List<Aluno>();
-
-alunos.Add(new Aluno(8, "Luna"));
-alunos.Add(new Aluno(8, "Luiz"));
-alunos.Add(new Aluno(9, "Maria"));
-alunos.Add(new Aluno(7, "João"));
-alunos.Add(new Aluno(10, "Lili"));
-alunos.Add(new Aluno(10, "André"));
-alunos.Add(new Aluno(9, "Tati"));
-alunos.Add(new Aluno(5, "Yuna"));
-alunos.Add(new Aluno(6, "Nala"));
-
-
-
-foreach(var aluno in alunos)
+class Program
 {
-    if (aluno.Nota > 7)
+    static void Main(string[] args)
     {
-        Console.WriteLine($"{aluno.Nome } {aluno.Nota}");
+        Console.WriteLine(String.Empty);
+        Console.WriteLine("Digite a quantidade de notas exigidas");
+        int quantidadeNotas;
+        while (!int.TryParse(Console.ReadLine(), out quantidadeNotas))
+            Console.WriteLine("Valor inválido. Digite a quantidade de notas exigidas");
+
+        double[] notasDigitadas = new double[quantidadeNotas];
+        List<Aluno> listaAlunos = new List<Aluno>();
+
+        while (true)
+        {
+            Console.WriteLine(String.Empty);
+            Console.WriteLine("Digite o nome do aluno ou digite exatamente Parar");
+            string nome;
+
+            while ((nome = Console.ReadLine()).Length == 0)
+                Console.WriteLine("Valor inválido. Digite o nome do aluno ou digite exatamente Parar");
+
+            if (nome == "Parar")
+                break;
+
+            double nota = 0;
+            for (int i = 0; i < quantidadeNotas; i++)
+            {
+                Console.WriteLine(String.Empty);
+                Console.WriteLine("Digite a nota " + (i + 1) + ". [Entre 0-10]");
+
+                while ((!double.TryParse(Console.ReadLine(), out nota)) || ((nota < 0) || nota > 10))
+                {
+                    Console.WriteLine(String.Empty);
+                    Console.WriteLine("Valor inválido. Digite a nota " + (i + 1) + ". [Entre 0-10]");
+                }
+
+                notasDigitadas[i] = nota;
+            }
+
+            listaAlunos.Add(new Aluno(nome, notasDigitadas));
+        }
+
+        if (listaAlunos.Count == 0)
+        {
+            Console.WriteLine(String.Empty);
+            Console.WriteLine("Nenhum aluno informado.");
+            return;
+        }
+
+        if (!listaAlunos.Any(aluno => aluno.Media > 7))
+        {
+            Console.WriteLine(String.Empty);
+            Console.WriteLine("Nenhum aluno informado possui média superior a 7");
+            return;
+        }
+
+        Console.WriteLine(String.Empty);
+        Console.WriteLine("\nAlunos que atingiram a média superior a 7:\n");
+
+        foreach (Aluno aluno in listaAlunos)
+        {
+            if (aluno.Media > 7)
+                Console.WriteLine("Nome: {0} - Média: {1}", aluno.Nome, aluno.Media);
+        }
     }
 }

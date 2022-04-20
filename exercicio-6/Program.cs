@@ -1,26 +1,47 @@
-﻿//Diferença entre out e ref//
-
+﻿class Program
 {
-    int numero = 1;
-    Ref(ref numero);
-    Console.WriteLine($"Numero antes da função: {numero}");
-    Out(out numero);
-    Console.WriteLine($"Numero depois da função: {numero}");
-}
+    public static void Main(string[] args)
+    {
+        var texto = "Conteúdo original";
+        DemonstrarMetodoComum(texto);
+        MostrarVariavel("DemonstrarMetodoComum", texto);
 
-static void Normal(int numero)
-{
-    numero = 1;
-}
+        //É necessário repetir o modificador na utilização do método
+        DemonstrarREF(ref texto);
+        MostrarVariavel("DemonstrarREF", texto);
 
-static void Ref(ref int numero)
-{
-    numero += 2;
-}
+        DemonstrarOut(out texto);
+        MostrarVariavel("DemonstrarOut", texto);
+    }
 
-static void Out(out int numero)
-{
-    numero = 3;
-  
-}
+    private static void DemonstrarMetodoComum(string texto)
+    {
+        if (texto is null)
+        {
+            throw new ArgumentNullException(nameof(texto));
+        }
 
+        texto = "Modifico apenas internamente";
+        Console.WriteLine("Em um método sem modificador de escopo, as alterações tem valor apenas dentro do escopo: " + texto);
+    }
+
+    private static void DemonstrarREF(ref string texto)
+    {
+        texto = "Modificado por referência";
+    }
+
+    private static void DemonstrarOut(out string texto)
+    {
+        //Se o parâmetro tem o modificar "out", você não consegue utilizar sem atribuição de valor anterior
+        // Caso tente, haverá um erro de compilação
+        //Console.WriteLine("O que tinha antes: " + texto);
+        texto = "Ignorando o que veio na variável";
+        //Após a primeira atribuição, é possível utilizar a váriável
+        Console.WriteLine("O que tem agora dentro da variável: " + texto);
+    }
+
+    static void MostrarVariavel(string nomeMetodo, string valor)
+    {
+        Console.WriteLine($"Valor da variável após o método \"{nomeMetodo}\": {valor}");
+    }
+}
